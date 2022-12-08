@@ -5,9 +5,6 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
-
-
-
 const generateImage = async (req, res) => {
   const{prompt, size} = req.body;
 
